@@ -1,7 +1,7 @@
 {
   "name": "nativescript-localize",
   "description": "Native internationalization plugin for NativeScript using native capabilities of each platform",
-  "version": "4.2.1",
+  "version": "4.3.0",
   "keywords": [
     "nativescript",
     "internationalization",
@@ -32,6 +32,10 @@
     {
       "name": "MultiShiv19",
       "email": "sp@shiv19.com"
+    },
+    {
+      "name": "Tim Doege",
+      "email": "timdoege@gmail.com"
     }
   ],
   "main": "index.js",
@@ -47,6 +51,7 @@
     "tslint": "tslint **/*.ts --config ../tslint.json"
   },
   "dependencies": {
+    "@angular-devkit/schematics": "^9.1.7",
     "mkdirp": "^0.5.1",
     "nativescript-hook": "~0.2.5",
     "shorthash": "0.0.2",
@@ -54,18 +59,18 @@
     "sprintf-js": "^1.1.1"
   },
   "devDependencies": {
-    "@angular/compiler": "~7.0.0",
-    "@angular/compiler-cli": "~7.0.0",
-    "@angular/core": "~7.0.0",
+    "@angular/compiler": "~9.1.0",
+    "@angular/compiler-cli": "~9.1.0",
+    "@angular/core": "~9.1.0",
     "@types/mkdirp": "^0.5.1",
-    "@types/node": "^8.0.0",
+    "@types/node": "^8.10.61",
     "@types/sprintf-js": "^1.1.0",
-    "rxjs": "^6.3.3",
+    "rxjs": "~6.5.5",
     "tns-core-modules": "~5.4.3",
     "tns-platform-declarations": "~5.4.3",
     "tslint": "^5.8.0",
-    "typescript": "~3.1.6",
-    "zone.js": "^0.8.26"
+    "typescript": "~3.8.3",
+    "zone.js": "^0.10.3"
   },
   "nativescript": {
     "platforms": {

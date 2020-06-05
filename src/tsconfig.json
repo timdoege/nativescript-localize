@@ -3,7 +3,11 @@
     "module": "commonjs",
     "target": "es5",
     "moduleResolution": "node",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es2017",
+      "dom",
+      "es6"
+    ],
     "baseUrl": ".",
     "paths": {
       "*": [
@@ -21,6 +25,9 @@
     "removeComments": true,
     "skipLibCheck": true
   },
+  "files": [
+    "./index.ts"
+  ],
   "exclude": [
     "hooks",
     "node_modules"
